@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+
+html,
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+/** ------ navbar ------ */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(43, 43, 43);
+  padding: 40px 25px;
+  color: white;
+}
+
+nav .controls {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav .controls > *{
+  cursor: pointer;
+}
+
+nav img {
+  width: 25px;
+}
+
+/** ------ Dashboard ------ */
+
+.dashboard {
+  padding: 30px;
+  width: 100%;
+}
+
+.dashboard .ticket-container {
+  height: 80vh;
+  /* overflow: scroll; */
+}
+
+.dashboard h3{
+  margin: 20px 10px 0 0 ;
+  display: inline-block;
+
+}
+
+.dashboard .goticketspage{
+  padding: 10px 15px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background-color: rgb(17, 223, 17);
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+
+
+/** ------ TicketCard ------ */
+
+.ticket-card {
+  display: flex;
+  width: 100%;
+}
+
+.ticket-card #link {
+  display: flex;
+  width: 100%;
+  
+  color: #333;
+}
+
+@media (max-width:670px) {
+  .ticket-card #link {
+    flex-direction: column;
+  }
+}
+
+.ticket-card #link>* {
+  background-color: rgb(221, 221, 221);
+  margin: 2px;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:670px) {
+  .ticket-card #link>*:nth-child(2) {
+    justify-content: center;
+  }
+  
+}
+
+.ticket-card .ticket-color {
+  width: 15px !important;
+  padding: 10px !important;
+  margin: 2px;
+}
+
+.ticket-card .avatar-container {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.ticket-card .avatar-container .img-holder {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.ticket-card .avatar-container .img-holder img {
+  max-width: 100%;
+}
+
+.ticket-card .status-container {
+  justify-content: center;
+}
+
+.ticket-card .priority-container {
+  justify-content: center;
+  gap: 10px;
+}
+
+.ticket-card .priority-container > * {
+  font-size: 25px;
+}
+
+.ticket-card .progress-bar {
+  height: 20px;
+  width: 100%;
+  background-color: #888;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ticket-card .progress-bar div {
+  height: 100%;
+}
+
+.ticket-card .delete-block {
+  background-color: rgb(211, 211, 211);
+  width: 50px !important;
+  margin: 2px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-card .delete-block .delete-icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(61, 61, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+/** create a ticket */
+
+.ticket{
+   width: 100%;
+   padding: 30px;
+}
+/* .ticket h1{} */
+.ticket .ticket-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ticket .ticket-container form{
+  display: flex;
+}
+.ticket .ticket-container form section{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 500px;
+}
+.ticket .ticket-container form section label{
+  margin: 20px 0 5px;
+}
+.ticket .ticket-container form section input{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1.5px solid rgb(218, 218, 218);
+  margin: 5px;
+}
+.ticket .ticket-container form section select{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1.5px solid rgb(218, 218, 218);
+  margin: 5px;
+}
+
+.ticket .ticket-container form .multiple-inputs{
+  margin: 20px 0 20px 0;
+}
+
+.ticket .ticket-container form .img-preview{
+  width: 220px;
+  height:220px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+}
+
+.ticket .ticket-container form .img-preview img{
+  max-width: 100%;
+}
+
+/* .ticket .ticket-container form section select option{} */
+/* .ticket .ticket-container form section:nth-child(1){} */
+/* .ticket .ticket-container form section:nth-child(2){} */
