@@ -23,8 +23,12 @@ I used https://astra.datastax.com/ for the database because I am not a backend d
 
 #usage
 
-**--** due to that https://astra.datastax.com/ stops the database after 2 days of not using it, I recorder the whole project in the below record
+- due to that https://astra.datastax.com/ stops the database after 2 days of not using it, I recorder the whole project in the below record
 
 #demo-video
+
+
+https://github.com/hamoz07/emloyee-system-tracking-status/assets/112629005/ff8e91cb-071e-4792-b5bd-f7a0d28de6fc
+
 
 
