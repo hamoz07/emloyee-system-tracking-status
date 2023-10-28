@@ -1,8 +1,25 @@
-# React + Vite
+#✨🎟️ Customer Relations Management system
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Table of content
+# description 
+# features
+# project-video
 
-Currently, two official plugins are available:
+# description
+I created this project to simulate Customer Relations Management system in companies,
+I used https://astra.datastax.com/ for the database because I am not a backend developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# features
+- by entering the employee name (the owner)
+- by entering the employee status with the project
+- by entering the employee photo
+- and the problem title
+- descriping the problem
+- progress of the project out of 100
+- the problem category (technical problem,connection issue, etc..)
+
+
+**--** due to that https://astra.datastax.com/ stops the database after 2 days of not using it, I recorder the whole project in the below record
+
+# project-video
+
