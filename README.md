@@ -1,15 +1,21 @@
-#✨🎟️ Customer Relations Management system
+# ✨🎟️ Customer Relations Management system
 
 # Table of content
 # description 
 # features
 # project-video
 
-# description
+## Table of Contents
+- [Features](#features)
+- [description](#description)
+- [Usage](#usage)
+- [Demo Video](#demo-video)
+
+#description
 I created this project to simulate Customer Relations Management system in companies,
 I used https://astra.datastax.com/ for the database because I am not a backend developer.
 
-# features
+#features
 - by entering the employee name (the owner)
 - by entering the employee status with the project
 - by entering the employee photo
@@ -18,8 +24,8 @@ I used https://astra.datastax.com/ for the database because I am not a backend d
 - progress of the project out of 100
 - the problem category (technical problem,connection issue, etc..)
 
-
+#usage
 **--** due to that https://astra.datastax.com/ stops the database after 2 days of not using it, I recorder the whole project in the below record
 
-# project-video
+#demo-video
 
