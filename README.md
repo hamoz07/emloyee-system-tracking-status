@@ -1,10 +1,5 @@
 # ✨🎟️ Customer Relations Management system
 
-# Table of content
-# description 
-# features
-# project-video
-
 ## Table of Contents
 - [Features](#features)
 - [description](#description)
