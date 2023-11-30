@@ -1,4 +1,4 @@
-# ✨🎟️ Customer Relations Management system
+# ✨🎟️ Customer Relations Management system (CRM)
 
 ## Table of Contents
 - [Features](#features)
